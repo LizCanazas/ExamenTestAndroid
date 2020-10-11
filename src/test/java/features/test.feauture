@@ -1,0 +1,6 @@
+Feature: Categoria test rest
+    Crear 
+Scenario: Test crear
+    Given Cargar datos de usuario
+    When Se envia el xml
+    Then Se obtien la respuesta

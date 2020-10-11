@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: appium.test.CalendarTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.351 sec <<< FAILURE! - in appium.test.CalendarTest
+startTestCalendar(appium.test.CalendarTest)  Time elapsed: 0.206 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/openqa/selenium/remote/internal/ApacheHttpClient$Factory
+	at appium.test.CalendarTest.beforeTest(CalendarTest.java:28)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.remote.internal.ApacheHttpClient$Factory
+	at appium.test.CalendarTest.beforeTest(CalendarTest.java:28)
+
